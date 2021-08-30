@@ -7,7 +7,7 @@ sort: 1
 
 ### Giới thiệu
 
-Licheepi Nano là một bo mạch phát triển sử dụng linux có kích thước bằng thẻ SD với nhân là bộ vi xử lý ARM9 Allwinner F1C100s.
+LicheePi Nano là một bo mạch phát triển sử dụng linux có kích thước bằng thẻ SD với nhân là bộ vi xử lý ARM9 Allwinner F1C100s.
 
 ![image](https://user-images.githubusercontent.com/86546911/129333579-babb44fe-cbc0-4816-8a2a-40249187a8e3.png)
 
@@ -23,7 +23,7 @@ Licheepi Nano là một bo mạch phát triển sử dụng linux có kích thư
 - Dải nhiệt độ – Bảo quản: -40~125°C; Hoạt động: -20 to 70°C.
 
 
-### Một số ứng dụng cụ thể với Licheepi Nano
+### Một số ứng dụng cụ thể với LicheePi Nano
 - Các ứng dụng IoT sử dụng nhiều ngoại vi và giao thức truyền thông phức tạp trên cùng một project (mqtt, snmp, http…).
 - Các ứng dụng giao diện tương tác giữa người và máy tính cần đẹp và logic phức tạp.
 - Các ứng dụng yêu cầu phải chạy nhiều tính năng mà MCU không thể thực hiện.
@@ -31,17 +31,17 @@ Licheepi Nano là một bo mạch phát triển sử dụng linux có kích thư
 - Làm máy nghe nhạc với nhiều tính năng và cân bằng giữa kích thước, hiệu xuất và dễ sử dụng.
 - Dành cho người mới, kỹ sư phần mềm, kỹ sư phần cứng custom phục vụ cho việc học tập và nghiên cứu.
 
-### Serial console Licheepi nano
+### Serial console LicheePi nano
 
-| Licheepi Nano | Serial   |
+| LicheePi Nano | Serial   |
 | ------------- | -------- |
 |      E0       |   RX     |
 |      E1       |   TX     |
 
-### Cài hệ điều hành cho bo mạch Licheepi Nano
+### Cài hệ điều hành cho bo mạch LicheePi Nano
 
 
-Licheepi Nano có hỗ trợ chạy hệ điều hành trên thẻ nhớ và norflash (8MB, 16MB, 32MB, ...), để dễ tiếp cận cho các bạn mới làm quen thì chúng ta sẽ chạy bo mạch bằng thẻ nhớ.
+LicheePi Nano có hỗ trợ chạy hệ điều hành trên thẻ nhớ và norflash (8MB, 16MB, 32MB, ...), để dễ tiếp cận cho các bạn mới làm quen thì chúng ta sẽ chạy bo mạch bằng thẻ nhớ.
 
 #### 1. Thiết bị cần chuẩn bị
   - Một đầu đọc thẻ nhớ USB.
@@ -49,8 +49,8 @@ Licheepi Nano có hỗ trợ chạy hệ điều hành trên thẻ nhớ và nor
   - Một máy tính cài hệ điều hành Ubuntu.
 
 
-#### 2. Download bản rom cho Licheepi Nano
-- [`Licheepi Nano rom link`](https://mega.nz/file/Myp20YxZ#7GH6VL6gQFb6ywQPv-gALdYCResSTUQDG2RmtdAWigw)
+#### 2. Download bản rom cho LicheePi Nano
+- [`LicheePi Nano rom link`](https://mega.nz/file/Myp20YxZ#7GH6VL6gQFb6ywQPv-gALdYCResSTUQDG2RmtdAWigw)
 
 
 #### 3. Format thẻ nhớ với gparted
@@ -77,5 +77,5 @@ sudo gparted
        sudo dd bs=4M if=lichee-nano-normal-size.img of=/dev/sdx conv=fsync
 ```
 
-- Flash xong chúng ta cắm thẻ vào Licheepi Nano và xem kết quả.
+- Flash xong chúng ta cắm thẻ vào LicheePi Nano và xem kết quả.
 
