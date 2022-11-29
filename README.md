@@ -4,7 +4,7 @@
 ## Skills
 
 - Good Knowledge & Work Experience in Embedded C/C++, ASM.
-- Good Knowledge & Work Experience event-driven Architecture programming.
+- Good Knowledge & Work Experience event-driven architecture programming.
 - Good Knowledge & Work Experience in STM32 MCU: RTOS, FOTA, bootloader.
 - Good Knowledge & Work Experience in custom zigbee gateway, router, end device (CC253x, JN516x).
 - Good knowledge & Work Experience Yocto, Buildroot, Openwrt developemt: IoT gateway, QT-HMI.
