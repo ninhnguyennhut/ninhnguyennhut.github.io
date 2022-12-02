@@ -155,7 +155,7 @@ Với lệnh trên, bitbake sẽ tìm recipe gpio và thực thi chạy các hà
 + Compile package (do_package() )
 + Install package vào rootfs (do_install() )
 
-Bitback sẽ biên dịch recipe fgpio,nhưng hiện tại bản rom yocto cho LicheePi Nano yocto vẫn 
+Bitbake sẽ biên dịch recipe fgpio,nhưng hiện tại bản rom yocto cho LicheePi Nano yocto vẫn 
 chưa có thư viện fgpio. Chúng ta cần add tên recipe "fgpio" vào file local.conf.
 
 Đường dẫn file local.conf trên máy mình như sau
